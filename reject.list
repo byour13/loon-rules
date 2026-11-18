@@ -1,0 +1,9 @@
+# 拦截腾讯/DCloud 更新下载域名（去重版）
+# 兼容 Loon / Clash (classical behavior) 规则格式
+DOMAIN,down-update.qq.com,REJECT
+DOMAIN,down-update.mid.dcloudstc.com,REJECT
+DOMAIN-SUFFIX,tcdnos.com,REJECT
+DOMAIN,download-estv.tga.qq.com,REJECT
+DOMAIN,down.qq.com,REJECT
+DOMAIN,dlied1.qq.com,REJECT
+DOMAIN,dl.qq.com,REJECT
